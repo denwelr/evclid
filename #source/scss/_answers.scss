@@ -1,0 +1,110 @@
+.answers {
+  padding: 150px 0 100px;
+  // .answers__title
+
+  &__title {
+    margin-bottom: 32px;
+  }
+}
+
+.answer {
+  padding: 40px 0;
+
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
+
+  transition: 300ms;
+
+  &.answer_active {
+    border-color: $accent-color;
+  }
+
+  // .answer__header
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+
+    .answer_active & {
+      margin-bottom: 30px;
+    }
+  }
+
+  // .answer__title
+
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+
+    transition: 300ms;
+
+    .answer_active & {
+      color: $accent-color;
+    }
+  }
+
+  // .answer__toggler
+
+  &__toggler {
+    flex: 0 0 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    position: relative;
+
+    background: #ececec;
+    transition: ease-in-out 300ms;
+
+    .answer_active & {
+      background: $accent-color;
+      transform: rotate(45deg);
+    }
+
+    &:before,
+    &:after {
+      content: "";
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      background: #666666;
+      transition: 300ms;
+
+      .answer_active & {
+        background: #fff;
+      }
+    }
+
+    &:before {
+      width: 61%;
+      height: 1px;
+    }
+
+    &:after {
+      width: 1px;
+      height: 61%;
+    }
+  }
+
+  // .answer__body
+
+  &__body {
+    display: none;
+
+    line-height: 2;
+
+    p:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    .answer_active & {
+      display: block;
+    }
+  }
+}
