@@ -110,3 +110,28 @@ p {
 .none {
   display: none;
 }
+
+.up-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: -100%;
+  right: 20px;
+
+  background-color: $accent-color;
+  transition: 300ms;
+
+  &.up-btn_active {
+    bottom: 20px;
+  }
+
+  &:hover {
+    background-color: darken($accent-color, 10%);
+  }
+
+  svg {
+    transform: rotate(180deg);
+  }
+}
