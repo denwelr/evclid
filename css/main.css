@@ -1023,11 +1023,11 @@ p {
 
 @media screen and (max-width: 1024px) {
   .header__slider-slide {
-    padding: 160px 80px;
+    padding: 60px 80px;
   }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 480px) {
   .header__slider-slide {
     text-align: center;
     padding: 60px 20px;

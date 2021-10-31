@@ -100,9 +100,9 @@ body {
 
   &__slider-slide {
     @media screen and (max-width: 1024px) {
-      padding: 160px 80px;
+      padding: 60px 80px;
     }
-    @media screen and (max-width: 476px) {
+    @media screen and (max-width: 480px) {
       text-align: center;
       padding: 60px 20px;
     }
