@@ -1,11 +1,11 @@
 body {
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 480px) {
     font-size: 14px;
   }
 }
 
 .title {
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 480px) {
     font-size: 24px;
     line-height: 29px;
   }
@@ -114,7 +114,7 @@ body {
     }
 
     button {
-      @media screen and (max-width: 320px) {
+      @media screen and (max-width: 480px) {
         width: 10px;
         height: 10px;
       }
@@ -140,21 +140,21 @@ body {
     @media screen and (max-width: 768px) {
       padding: 35px 45px 35px 40px;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       border: 0;
       padding: 0;
     }
   }
 
   &__advantages-item-img {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       width: 64px;
       height: 49px;
     }
   }
 
   &__advantages-item-title {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       font-size: 18px;
       line-height: 22px;
       font-weight: normal;
@@ -162,7 +162,7 @@ body {
   }
 
   &__advantages-item-desc {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       line-height: 28px;
     }
   }
@@ -180,7 +180,7 @@ body {
   }
 
   &__advantages-item-btn {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       padding: 12px 42px;
       color: $accent-color;
     }
@@ -194,12 +194,12 @@ body {
     padding: 60px 0;
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 480px) {
     padding: 40px 0;
   }
 
   .about__advantages-item_preview {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       grid-row: 1/1;
     }
   }
@@ -210,7 +210,7 @@ body {
     padding-right: 20px;
   }
   &__title {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       margin-bottom: 16px;
     }
   }
@@ -218,7 +218,7 @@ body {
     @media screen and (max-width: 1030px) {
       flex-direction: column-reverse;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       row-gap: 16px;
     }
   }
@@ -231,7 +231,7 @@ body {
   }
 
   &__tab-text {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       margin-bottom: 16px;
     }
   }
@@ -241,7 +241,7 @@ body {
       column-gap: 5px;
       justify-content: space-between;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       margin-bottom: 16px;
     }
   }
@@ -253,14 +253,14 @@ body {
   }
 
   &__tabs-control {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       font-weight: normal;
       line-height: 17px;
     }
   }
 
   &__tab-title {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       font-weight: 500;
       font-size: 18px;
       line-height: 32px;
@@ -294,18 +294,18 @@ body {
   @media screen and (max-width: 1024px) {
     padding: 80px 0;
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 480px) {
     padding: 60px 0;
   }
   &__title {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       margin-bottom: 15px;
     }
   }
 }
 
 .answer {
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 480px) {
     padding: 30px 0;
   }
 
@@ -315,7 +315,7 @@ body {
       font-size: 20px;
       line-height: 32px;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       font-weight: 500;
       font-size: 14px;
       line-height: 24px;
@@ -323,7 +323,7 @@ body {
   }
 
   &__toggler {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       flex-basis: 30px;
       height: 30px;
     }
@@ -335,7 +335,7 @@ body {
     padding: 50px;
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 480px) {
     padding: 32px 0;
   }
 
@@ -352,7 +352,7 @@ body {
     }
   }
   &__info {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       align-self: center;
 
       border-top: 1px solid #595959;
@@ -361,7 +361,7 @@ body {
   }
 
   &__textarea {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       margin-bottom: 32px;
     }
   }
@@ -373,7 +373,7 @@ body {
   }
 
   &__social {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       img {
         width: 40px;
         height: 40px;
@@ -394,8 +394,15 @@ body {
   }
 
   &__form-row {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 480px) {
       justify-content: center;
     }
+  }
+}
+
+.up-btn {
+  @media screen and (max-width: 480px) {
+    width: 40px;
+    height: 40px;
   }
 }
